@@ -85,11 +85,11 @@ challenge:                   # incoming challenges
   max_increment: 180         # maximum amount of increment to accaept a challenge. the max is 180. set to 0 for no increment
   min_increment: 0           # minimum amount of increment to accept a challenge
   variants:                  # chess variants to accept (http://lichess.org/variant)
-#   - standard
+    - standard
 #   - fromPosition
     - antichess
     - atomic
-#   - chess960
+    - chess960
     - crazyhouse
     - horde
     - kingOfTheHill
@@ -97,10 +97,10 @@ challenge:                   # incoming challenges
     - threeCheck
   time_controls:             # time controls to accept
     - bullet
-#   - blitz
-#   - rapid
-#   - classical
-    - correspondence
+    - blitz
+    - rapid
+    - classical
+#   - correspondence
   modes:                     # game modes to accept
-#   - casual                 # unrated games
-#   - rated                  # rated games - must comment if the engine doesn't try to win
+    - casual                 # unrated games
+    - rated                  # rated games - must comment if the engine doesn't try to win
